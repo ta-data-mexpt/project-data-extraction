@@ -1,0 +1,246 @@
+,0
+0,AI for Healthcare
+1,AWS Cloud Architect
+2,Intel® Edge AI for IoT Developers
+3,Growth and Acquisition Strategy
+4,Growth Product Manager
+5,Product Manager
+6,AI for Business Leaders
+7,Intro to Machine Learning with TensorFlow
+8,UX Designer
+9,Data Streaming
+10,Front End Web Developer
+11,Full Stack Web Developer
+12,Java Developer
+13,AI Product Manager
+14,Sensor Fusion Engineer
+15,Data Visualization
+16,Cloud Developer
+17,Cloud DevOps Engineer
+18,Intro to Machine Learning with PyTorch
+19,C++
+20,Data Structures and Algorithms
+21,Programming for Data Science with R
+22,Data Engineer
+23,Marketing Analytics
+24,Introduction to Programming
+25,Data Analyst
+26,iOS Developer
+27,Predictive Analytics for Business
+28,Machine Learning Engineer
+29,Self Driving Car Engineer
+30,Digital Marketing
+31,React
+32,Data Scientist
+33,AI Programming with Python
+34,Business Analytics
+35,Deep Learning
+36,Programming for Data Science with Python
+37,Intro to Self-Driving Cars
+38,Blockchain Developer
+39,Robotics Software Engineer
+40,Flying Car and Autonomous Flight Engineer
+41,Android Developer
+42,Android Basics
+43,Artificial Intelligence for Trading
+44,Computer Vision
+45,Natural Language Processing
+46,Deep Reinforcement Learning
+47,Artificial Intelligence
+48,Intel® Edge AI Fundamentals with OpenVINO™
+49,Product Manager Interview Preparation
+50,Managing Remote Teams with Upwork
+51,Self-Driving Fundamentals: Featuring Apollo 
+52,AWS DeepRacer
+53,Spark
+54,Tales from the Genome
+55,Design of Computer Programs
+56,Intro to Algorithms
+57,Differential Equations in Action
+58,Software Testing
+59,Software Debugging
+60,Programming Languages
+61,Intro to Artificial Intelligence
+62,Interactive 3D Graphics
+63,Intro to Theoretical Computer Science
+64,Artificial Intelligence for Robotics
+65,Applied Cryptography
+66,Intro to the Design of Everyday Things
+67,How to Build a Startup
+68,OMSCS Student Orientation
+69,Intro to Physics
+70,Intro to Psychology
+71,Statistics
+72,Intro to Statistics
+73,Intro to HTML and CSS
+74,High Performance Computer Architecture
+75,Data Wrangling with MongoDB
+76,Firebase in a Weekend: iOS
+77,Firebase in a Weekend: Android
+78,"Computability, Complexity & Algorithms"
+79,Full Stack Foundations
+80,GT - Refresher - Advanced OS
+81,Machine Learning Interview Preparation
+82,Deploying a Hadoop Cluster
+83,Data Visualization in Tableau
+84,Objective-C for Swift Developers
+85,Data Structures & Algorithms in Swift
+86,Introduction to Virtual Reality
+87,VR Scenes and Objects
+88,VR Software Development
+89,Swift for Beginners
+90,Swift for Developers
+91,AutoLayout
+92,Passwordless Login Solutions for iOS
+93,Server-Side Swift
+94,Mobile Design and Usability for iOS
+95,Core ML: Machine Learning for iOS
+96,Eigenvectors and Eigenvalues
+97,Asynchronous JavaScript Requests
+98,Intro to AJAX
+99,Learn ARKit using Unity
+100,Learn ARKit using Swift
+101,Introduction to Python Programming
+102,JavaScript and the DOM
+103,Introduction to Machine Learning Course
+104,Version Control with Git
+105,Introduction to Cybersecurity
+106,Database Systems Concepts & Design
+107,Intro to Point & Click App Development
+108,Compilers: Theory and Practice
+109,Embedded Systems
+110,Intro to Data Analysis
+111,Intro to Backend
+112,Secure and Private AI
+113,Introduction to TensorFlow Lite
+114,Intro to TensorFlow for Deep Learning
+115,Intro to Deep Learning with PyTorch
+116,WeChat Mini Program Development
+117,Advanced Operating Systems
+118,Intro to Relational Databases
+119,SQL for Data Analysis
+120,Network Security
+121,Intro to Inferential Statistics
+122,Shell Workshop
+123,C++ For Programmers
+124,iOS Interview Prep
+125,Android Interview Prep
+126,Strengthen Your LinkedIn Network & Brand
+127,Refresh Your Resume
+128,Craft Your Cover Letter
+129,Intro to jQuery
+130,Front-End Interview Prep
+131,VR Interview Prep
+132,Full-Stack Interview Prep
+133,Networking for Web Developers
+134,A/B Testing
+135,Machine Learning
+136,Dynamic Web Applications with Sinatra
+137,The MVC Pattern in Ruby
+138,Deploying Applications with Heroku
+139,Cyber-Physical Systems Security
+140,High Performance Computing
+141,Java Programming Basics
+142,Object Oriented Programming in Java
+143,HTML5 Canvas
+144,Configuring Linux Web Servers
+145,HTTP & Web Servers
+146,iOS Persistence and Core Data
+147,Authentication & Authorization: OAuth
+148,Software Analysis & Testing
+149,Firebase Analytics: iOS
+150,Firebase Analytics: Android
+151,ES6 - JavaScript Improved
+152,Passwordless Login Solutions for Android
+153,Mobile Design and Usability for Android
+154,Intro to Data Science
+155,Real-Time Analytics with Apache Storm
+156,Designing RESTful APIs
+157,Human-Computer Interaction
+158,Introduction to Graduate Algorithms
+159,Data Analysis and Visualization
+160,2D Game Development with libGDX
+161,How to Make a Platformer Using libGDX
+162,Engagement & Monetization | Mobile Games
+163,Knowledge-Based AI: Cognitive Systems
+164,iOS Networking with Swift
+165,Computer Networking
+166,Intro to Information Security
+167,Machine Learning for Trading
+168,Data Visualization and D3.js
+169,Product Design
+170,Intro to Data Structures and Algorithms
+171,App Monetization
+172,JavaScript Testing
+173,Grand Central Dispatch (GCD)
+174,Intro to iOS App Development with Swift
+175,Linux Command Line Basics
+176,Reinforcement Learning
+177,How to Make an iOS App
+178,Localization Essentials
+179,Intro to DevOps
+180,Scalable Microservices with Kubernetes
+181,Intro to Hadoop and MapReduce
+182,Data Analysis with R
+183,Object-Oriented JavaScript
+184,App Marketing
+185,Rapid Prototyping
+186,Machine Learning: Unsupervised Learning
+187,Big Data Analytics in Healthcare
+188,Xcode Debugging
+189,Writing READMEs
+190,UIKit Fundamentals
+191,Intro to JavaScript
+192,Software Development Process
+193,Get Your Startup Started
+194,How to Install Android Studio
+195,Health Informatics in the Cloud
+196,Introduction to Computer Vision
+197,Intro to Progressive Web Apps
+198,Software Architecture & Design
+199,Android Performance
+200,Intro to Descriptive Statistics
+201,Android Basics: User Interface
+202,Android Basics: User Input
+203,Android Basics: Multiscreen Apps
+204,Android Basics: Networking
+205,Android Basics: Data Storage
+206,UX Design for Mobile Developers
+207,Developing Android Apps
+208,Advanced Android App Development
+209,Browser Rendering Optimization
+210,Material Design for Android Developers
+211,Google Maps APIs
+212,Gradle for Android and Java
+213,Responsive Images
+214,Website Performance Optimization
+215,Kotlin for Android Developers
+216,Advanced Android with Kotlin
+217,Building High Conversion Web Forms
+218,Web Accessibility
+219,Web Tooling & Automation
+220,Responsive Web Design Fundamentals
+221,Front End Frameworks
+222,Client-Server Communication
+223,JavaScript Promises
+224,Offline Web Applications
+225,Kotlin Bootcamp for Programmers
+226,Developing Android Apps with Kotlin
+227,Learn Swift Programming Syntax
+228,Build Native Mobile Apps with Flutter
+229,Educational Technology
+230,Model Building and Validation
+231,Introduction to Operating Systems
+232,Data Science Interview Prep
+233,Linear Algebra Refresher Course
+234,Artificial Intelligence
+235,Computational Photography
+236,Problem Solving with Advanced Analytics
+237,Creating an Analytical Dataset
+238,Classification Models
+239,A/B Testing for Business Analysts
+240,Time Series Forecasting
+241,Segmentation and Clustering
+242,Cyber-Physical Systems Design & Analysis
+243,JavaScript Design Patterns
+244,What is Programming?
