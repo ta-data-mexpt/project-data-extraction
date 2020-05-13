@@ -8,9 +8,9 @@ El actual proyecto consiste en la extracción y limpieza de datos para hallar al
 
 Las fuentes de datos utilizadas son:
 
-*API de Blockchain.info (Volumen de transacciones BTC)
-*Api de Coindesk.com (Precio en USD de BTC)
-*Webscrapping en Yahoo Finance (Volumen y Precios por día de S&P500 y VIX )
+* API de Blockchain.info (Volumen de transacciones BTC)
+* Api de Coindesk.com (Precio en USD de BTC)
+* Webscrapping en Yahoo Finance (Volumen y Precios por día de S&P500 y VIX )
 
 ---
 
