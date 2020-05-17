@@ -1,0 +1,149 @@
+,Campeón,attack,defense,magic,difficulty,Popularidad by Skins,Rol1,Rol2
+0,Aatrox-la Espada Darkin.,8,4,3,4,7,Fighter,Tank
+1,Ahri-la Vastaya de Nueve Colas.,3,4,8,5,12,Mage,Assassin
+2,Akali-la Asesina Furtiva.,5,3,8,7,13,Assassin,
+3,Alistar-el Minotauro.,6,9,5,7,14,Tank,Support
+4,Amumu-la Momia Triste.,2,6,8,3,11,Tank,Mage
+5,Anivia-la Criofénix.,1,4,10,10,9,Mage,Support
+6,Annie-la Hija de la Oscuridad.,2,3,10,6,13,Mage,
+7,Aphelios-El Arma de los Adeptos.,6,2,1,10,2,Marksman,
+8,Ashe-la Arquera de Hielo.,7,3,2,4,12,Marksman,Support
+9,AurelionSol-el Forjador de Estrellas.,2,3,8,7,3,Mage,
+10,Azir-el Emperador de las Arenas.,6,3,8,9,5,Mage,Marksman
+11,Bard-el Guardián Trotamundos.,4,4,5,9,4,Support,Mage
+12,Blitzcrank-el Gran Gólem de Vapor.,4,8,5,4,12,Tank,Fighter
+13,Brand-la Venganza Ardiente.,2,2,9,4,8,Mage,
+14,Braum-el Corazón del Fréljord.,3,9,4,3,7,Support,Tank
+15,Caitlyn-la Sheriff de Piltóver.,8,2,2,6,12,Marksman,
+16,Camille-la Sombra de Acero.,8,6,3,4,4,Fighter,Tank
+17,Cassiopeia-el Abrazo de la Serpiente.,2,3,9,10,6,Mage,
+18,Chogath-el Terror del Vacío.,3,7,7,5,8,Tank,Mage
+19,Corki-el Bombardero Osado.,8,3,6,6,10,Marksman,
+20,Darius-la mano de Noxus.,9,5,1,2,9,Fighter,Tank
+21,Diana-el Desdén de la Luna.,7,6,8,4,7,Fighter,Mage
+22,Draven-el Glorioso Ejecutor.,9,3,1,8,9,Marksman,
+23,DrMundo-el Loco de Zaun.,5,7,6,5,11,Fighter,Tank
+24,Ekko-el Joven que Fragmentó el Tiempo.,5,3,7,8,7,Assassin,Fighter
+25,Elise-la Reina de las Arañas.,6,5,7,9,6,Mage,Fighter
+26,Evelynn-Abrazo de la Agonía.,4,2,7,10,9,Assassin,Mage
+27,Ezreal-el Explorador Pródigo.,7,2,6,7,14,Marksman,Mage
+28,Fiddlesticks-el Terror Ancestral.,2,3,9,9,10,Mage,Support
+29,Fiora-la Gran Duelista.,10,4,2,3,9,Fighter,Assassin
+30,Fizz-el Bromista de las Mareas.,6,4,7,6,10,Assassin,Fighter
+31,Galio-el Coloso.,1,10,6,5,8,Tank,Mage
+32,Gangplank-el Azote de los Mares.,7,6,4,9,11,Fighter,
+33,Garen-el Poder de Demacia.,7,7,1,5,13,Fighter,Tank
+34,Gnar-el Eslabón Perdido.,6,5,5,8,7,Fighter,Tank
+35,Gragas-el Revoltoso.,4,7,6,5,11,Fighter,Mage
+36,Graves-el Forajido.,8,5,3,3,11,Marksman,
+37,Hecarim-la Sombra de la Guerra.,8,6,4,6,9,Fighter,Tank
+38,Heimerdinger-el Venerable Inventor.,2,6,8,8,7,Mage,Support
+39,Illaoi-la Sacerdotisa del Kraken.,8,6,3,4,3,Fighter,Tank
+40,Irelia-la Cuchilla Danzante.,7,4,5,5,10,Fighter,Assassin
+41,Ivern-el Árbol Padre.,3,5,7,7,3,Support,Mage
+42,Janna-la Furia de la Tormenta.,3,5,7,7,11,Support,Mage
+43,JarvanIV-el Ejemplo de Demacia.,6,8,3,5,10,Tank,Fighter
+44,Jax-el Maestro de Armas.,7,5,7,5,12,Fighter,Assassin
+45,Jayce-el Defensor del Mañana.,8,4,3,7,6,Fighter,Marksman
+46,Jhin-el Virtuoso.,10,2,6,6,6,Marksman,Mage
+47,Jinx-la Bala Perdida.,9,2,4,6,9,Marksman,
+48,Kaisa-La Hija del Vacío.,8,5,3,6,6,Marksman,
+49,Kalista-el Espíritu de la Venganza.,8,2,4,7,4,Marksman,
+50,Karma-la Iluminada.,1,7,8,5,10,Mage,Support
+51,Karthus-el Canto de la Muerte.,2,2,10,7,7,Mage,
+52,Kassadin-el Caminante del Vacío.,3,5,8,8,7,Assassin,Mage
+53,Katarina-la Daga Siniestra.,4,3,9,8,13,Assassin,Mage
+54,Kayle-la Justiciera.,6,6,7,7,10,Fighter,Support
+55,Kayn-el Segador Sombrío.,10,6,1,8,3,Fighter,Assassin
+56,Kennen-el Corazón de la Tempestad.,6,4,7,4,8,Mage,Marksman
+57,Khazix-el Saqueador del Vacío.,9,4,3,6,6,Assassin,
+58,Kindred-los Cazadores Eternos.,8,2,2,4,3,Marksman,
+59,Kled-el Jinete Cascarrabias.,8,2,2,7,3,Fighter,Tank
+60,KogMaw-la Boca del Abismo.,8,2,5,6,11,Marksman,Mage
+61,Leblanc-la Maquiavélica.,1,4,10,9,9,Assassin,Mage
+62,LeeSin-el Monje Ciego.,8,5,3,6,13,Fighter,Assassin
+63,Leona-el Radiante Amanecer.,4,8,3,4,10,Tank,Support
+64,Lissandra-la Bruja de Hielo.,2,5,8,6,5,Mage,
+65,Lucian-el Purificador.,8,5,3,6,7,Marksman,
+66,Lulu-La Hechicera Hadística.,4,5,7,5,9,Support,Mage
+67,Lux-la Dama Luminosa.,2,4,9,5,14,Mage,Support
+68,Malphite-el Fragmento del Monolito.,5,9,7,2,12,Tank,Fighter
+69,Malzahar-el Profeta del Vacío.,2,2,9,6,9,Mage,Assassin
+70,Maokai-el Treant Retorcido.,3,8,6,3,9,Tank,Mage
+71,MasterYi-la Espada Wuju.,10,4,2,4,11,Assassin,Fighter
+72,MissFortune-la Cazarrecompensas.,8,2,5,1,15,Marksman,
+73,MonkeyKing-el Rey de los Monos.,8,5,2,3,7,Fighter,Tank
+74,Mordekaiser-el Renacido de Hierro.,4,6,7,4,7,Fighter,
+75,Morgana-la Desolada.,1,6,8,1,11,Mage,Support
+76,Nami-la Invocadora de Mareas.,4,3,7,5,8,Support,Mage
+77,Nasus-el Curador de las Arenas.,7,5,6,6,9,Fighter,Tank
+78,Nautilus-el Titán de las Profundidades.,4,6,6,6,6,Tank,Fighter
+79,Neeko-la Camaleón Curiosa.,1,1,9,5,4,Mage,Support
+80,Nidalee-la Cazadora Salvaje.,5,4,7,8,11,Assassin,Mage
+81,Nocturne-la Pesadilla Eterna.,9,5,2,4,8,Assassin,Fighter
+82,Nunu-el Niño y su Yeti.,4,6,7,4,9,Tank,Fighter
+83,Olaf-el Berserker.,9,5,3,3,9,Fighter,Tank
+84,Orianna-la Doncella Mecánica.,4,3,9,7,9,Mage,Support
+85,Ornn-El Fuego Debajo de la Montaña.,5,9,3,5,2,Tank,Fighter
+86,Pantheon-la Lanza Inquebrantable.,9,4,3,4,9,Fighter,Assassin
+87,Poppy-la Guardiana del Martillo.,6,7,2,6,10,Tank,Fighter
+88,Pyke-el Destripador del Muelle Rojo.,9,3,1,7,4,Support,Assassin
+89,Qiyana-La Emperatriz de los Elementos.,0,2,4,8,4,Assassin,Fighter
+90,Quinn-las Alas de Demacia.,9,4,2,5,5,Marksman,Assassin
+91,Rakan-El Encantador.,2,4,8,5,6,Support,
+92,Rammus-el Armadurillo.,4,10,5,5,10,Tank,Fighter
+93,RekSai-la Excavadora del Vacío.,8,5,2,3,4,Fighter,
+94,Renekton-el Carnicero de las Arenas.,8,5,2,3,12,Fighter,Tank
+95,Rengar-el Orgullo Acechante.,7,4,2,8,7,Assassin,Fighter
+96,Riven-la Desterrada.,8,5,1,8,12,Fighter,Assassin
+97,Rumble-la Amenaza Mecánica.,3,6,8,10,5,Fighter,Mage
+98,Ryze-el Mago Rúnico.,2,2,10,7,13,Mage,Fighter
+99,Sejuani-la Furia del Norte.,5,7,6,4,10,Tank,Fighter
+100,Senna-la Redentora.,7,2,6,7,3,Marksman,Support
+101,Sett-El Jefe.,8,5,1,2,2,Fighter,Tank
+102,Shaco-el Bufón Siniestro.,8,4,6,9,9,Assassin,
+103,Shen-el Ojo del Crepúsculo.,3,9,3,4,9,Tank,
+104,Shyvana-la Hija del Dragón.,8,6,3,4,7,Fighter,Tank
+105,Singed-el Químico Loco.,4,8,7,5,10,Tank,Fighter
+106,Sion-el Coloso no Muerto.,5,9,3,5,7,Tank,Fighter
+107,Sivir-la Señora de la Batalla.,9,3,1,4,12,Marksman,
+108,Skarner-la Vanguardia de Cristal.,7,6,5,5,5,Fighter,Tank
+109,Sona-la Virtuosa de las Cuerdas.,5,2,8,4,9,Support,Mage
+110,Soraka-la Hija de las Estrellas.,2,5,7,3,12,Support,Mage
+111,Swain-el Gran General Noxiano.,2,6,9,8,6,Mage,Fighter
+112,Sylas-el Usurpador.,3,4,8,5,3,Mage,Assassin
+113,Syndra-la Soberana Oscura.,2,3,9,8,7,Mage,Support
+114,TahmKench-el Rey del Río.,3,9,6,5,4,Support,Tank
+115,Taliyah-la Tejedora de Piedra.,1,7,8,5,3,Mage,Support
+116,Talon-la Sombra de la Navaja.,9,3,1,7,8,Assassin,
+117,Taric-el Escudo de Valoran.,4,8,5,3,6,Support,Fighter
+118,Teemo-el Explorador Veloz.,5,3,7,6,11,Marksman,Assassin
+119,Thresh-el Carcelero Implacable.,5,6,6,7,10,Support,Fighter
+120,Tristana-la Artillera Yordle.,9,3,5,4,12,Marksman,Assassin
+121,Trundle-el Rey de los Troles.,7,6,2,5,7,Fighter,Tank
+122,Tryndamere-el Rey Bárbaro.,10,5,2,5,11,Fighter,Assassin
+123,TwistedFate-el Maestro de las Cartas.,6,2,6,9,12,Mage,
+124,Twitch-la Rata Mutante.,9,2,3,6,11,Marksman,Assassin
+125,Udyr-el Cambiapieles.,8,7,4,7,6,Fighter,Tank
+126,Urgot-el Temerario.,8,5,3,8,6,Fighter,Tank
+127,Varus-la Flecha del Castigo.,7,3,4,2,9,Marksman,Mage
+128,Vayne-la Cazadora Nocturna.,10,1,1,8,12,Marksman,Assassin
+129,Veigar-el Pequeño Maestro del Mal.,2,2,10,7,12,Mage,
+130,Velkoz-el Ojo del Vacío.,2,2,10,8,4,Mage,
+131,Vi-la Vigilante de Piltóver.,8,5,3,4,8,Fighter,Assassin
+132,Viktor-el Heraldo Mecánico.,2,4,10,9,5,Mage,
+133,Vladimir-el Segador Carmesí.,2,6,8,7,10,Mage,
+134,Volibear-el Rugir del Trueno.,7,7,4,3,6,Fighter,Tank
+135,Warwick-la Furia Desatada de Zaun.,9,5,3,3,12,Fighter,Tank
+136,Xayah-la Rebelde.,10,6,1,5,5,Marksman,
+137,Xerath-el Mago Ascendente.,1,3,10,8,6,Mage,
+138,XinZhao-el Senescal de Demacia.,8,6,3,2,9,Fighter,Assassin
+139,Yasuo-el Imperdonable.,8,4,4,10,8,Fighter,Assassin
+140,Yorick-Pastor de Almas.,6,6,4,6,5,Fighter,Tank
+141,Yuumi-la gatita mágica.,5,1,8,2,3,Support,Mage
+142,Zac-el Arma Secreta.,3,7,7,8,4,Tank,Fighter
+143,Zed-el Maestro de las Sombras.,9,2,1,7,7,Assassin,
+144,Ziggs-el Experto en Hexplosivos .,2,4,9,4,9,Mage,
+145,Zilean-el Guardián del Tiempo.,2,5,8,6,7,Support,Mage
+146,Zoe-el Aspecto del Crepúsculo.,1,7,8,5,4,Mage,Support
+147,Zyra-el Despertar de las Espinas.,4,3,8,7,7,Mage,Support
