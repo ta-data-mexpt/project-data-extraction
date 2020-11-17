@@ -1,17 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # https://www.youtube.com/watch?v=xdq6Gz33khQ&ab_channel=CodingEntrepreneurs
 # Coneccion a la API de Spotify
 client_id = '2fcf86918d5d434c90fe82b1294d12b0'
 client_secret = 'd7fa0a4a43fb4fff9cc3bce1940ff876'
-
-
-# In[2]:
-
 
 import base64
 import requests
@@ -131,52 +121,3 @@ class SpotifyAPI(object):
                     query = f"{query} {operator} {operator_query}"
         query_params = urlencode({"q": query, "type": search_type.lower()})
         return self.base_search(query_params)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
