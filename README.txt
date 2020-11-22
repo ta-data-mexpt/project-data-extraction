@@ -14,6 +14,3 @@ Third, once the page was scrapped, using pandas.read_html() make all of the work
 And finally, I used a for loop to save each match history and concatenate it to a Dataframe and save ALL match histories into one Dataframe.
 
 Before beginning to scrap a page make sure to define the type that each data need to be (you can't make math operations with numbers being strings...), and also think to future and scrap at once all the info you think you will be needing later on.
-
-
-
