@@ -1,0 +1,21 @@
+,id,nombre,album,artista,danceability,energy,loudness,speechiness,acousticness,instrumentalness,liveness,valence,tempo
+0,1lO8VQK74G6Bvvf05BH4o5,Dust Bowl Dance,Sigh No More,Mumford & Sons,0.398,0.599,-8.217,0.0464,0.0684,0.00332,0.352,0.374,112.393
+1,3BqDKQg8onwppXlPw4SYnZ,There Will Be Time,Johannesburg,Mumford & Sons,0.481,0.703,-8.344,0.0466,0.0137,0.0,0.0879,0.225,149.951
+2,6pAvXn45z0sktftypuEEzt,Héroe de leyenda,El Mar No Cesa- Edición Especial,Heroes Del Silencio,0.698,0.605,-11.492,0.0302,0.313,0.000238,0.0783,0.8,134.092
+3,4vkSJSyPddHwL7v3l1cuRf,La chispa adecuada (Bendecida 3),Avalancha,Heroes Del Silencio,0.647,0.402,-9.14,0.0282,0.508,0.0,0.107,0.237,113.27
+4,02dphTJYUQ9pmdNC52iyOz,Fiesta Pagana,Finisterra,Mägo de Oz,0.434,0.897,-4.845,0.0695,0.0124,4.22e-05,0.0772,0.376,135.54
+5,19vhfSUgVJO2enJ6XidUGO,Molinos De Viento,La Leyenda De La Mancha,Mägo de Oz,0.491,0.877,-3.758,0.0425,0.000259,0.0,0.0876,0.819,138.31
+6,0dQPkfweyWDzZ20Auq3F14,La danza del fuego,Finisterra,Mägo de Oz,0.477,0.836,-5.662,0.0506,0.033,3.43e-05,0.248,0.213,131.812
+7,2LIh4uzqq9cXMPzzmcToHl,Lost on You,Lost on You,LP,0.433,0.724,-6.126,0.0372,0.1,0.0,0.0918,0.689,174.006
+8,53gDb3nG9sMytzVzD6UCMb,Cenit,En Vivo 25 Aniversario,La Castañeda,0.356,0.734,-6.314,0.0476,0.163,0.0,0.749,0.344,118.002
+9,5NeIONQWJ25uPylJBJiO4c,Through Glass,Come What(ever) May [10th Anniversary Edition],Stone Sour,0.545,0.753,-4.618,0.036,0.0417,0.0,0.389,0.434,105.754
+10,5OfNYKPRbqot0IM4gdXSqj,Wicked Game - Live Acoustic,Covers Unplugged,Stone Sour,0.561,0.337,-9.272,0.0284,0.644,8.79e-05,0.67,0.273,109.373
+11,3EQjW604d5Cfbn8FnZmqyF,It's a Long Way to the Top (If You Wanna Rock 'n' Roll),Bonfire,AC/DC,0.458,0.87,-3.533,0.0864,0.149,0.0553,0.0634,0.535,135.937
+12,734dz1YaFITwawPpM25fSt,Je veux,Zaz,Zaz,0.525,0.807,-6.366,0.0725,0.251,0.0,0.0504,0.741,155.397
+13,5ZULALImTm80tzUbYQYM9d,Dance Monkey,The Kids Are Coming,Tones And I,0.824,0.588,-6.4,0.0924,0.692,0.000104,0.149,0.513,98.027
+14,37Tmv4NnfQeb0ZgUC4fOJj,Sultans Of Swing,Dire Straits,Dire Straits,0.733,0.794,-10.023,0.0307,0.0614,0.0367,0.33,0.931,148.174
+15,6fNhZRFEkBfgW39W3wKARJ,Pompeii,Bad Blood,Bastille,0.679,0.715,-6.383,0.0407,0.0755,0.0,0.271,0.571,127.435
+16,5CQ30WqJwcep0pYcV4AMNc,Stairway to Heaven - Remaster,Led Zeppelin IV (Deluxe Edition),Led Zeppelin,0.338,0.34,-12.049,0.0339,0.58,0.0032,0.116,0.197,82.433
+17,7vcDJCAO356RYkCfiUozmE,Maldito duende,Senderos De Traición - Edición Especial,Heroes Del Silencio,0.374,0.85,-5.657,0.0404,0.0904,0.0,0.116,0.348,125.796
+18,6PiFdkBF7SMrtJ2P1F2hVl,La Leyenda Del Hada Y El Mago,Rock Latino Vol. 2,Rata Blanca,0.379,0.951,-5.26,0.0937,0.0144,9.8e-05,0.265,0.426,75.645
+19,5O5PY5HJNPxD7KyqU0SEhH,Mujer Amante,"XX aniversario en vivo - Magos, Espadas y Rosas",Rata Blanca,0.485,0.791,-7.719,0.0358,0.00433,0.0,0.132,0.431,122.08
