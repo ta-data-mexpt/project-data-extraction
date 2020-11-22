@@ -53,5 +53,12 @@ Siguientes pasos?
 ## ¿Qué se entrega?:
 
 2 archivos de notebook donde se hicieron los códigos de manera simple
-3 archivos .py que se manejan como pipeline, el sumarry diario, el que sacar rangos de request para historico y el que lee varios csv y los acumula en un solo csv
-3 archivos, ejemplo de descarga summary, ejemplo de descarga histórico, archivo con las 75,636 ligas
+3 archivos .py que como pipeline:
+    el summary diario
+    request para historico a través de rangos
+    el que lee varios csv y los acumula en un solo csv
+4 archivos:
+    ejemplo de descarga summary
+    ejemplo de descarga histórico
+    archivo con las 75,636 ligas
+    ejemplo de compilado de 8 archivos csv a un solo csv
