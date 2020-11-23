@@ -1,0 +1,57 @@
+![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
+
+# Project: API and Web Data Scraping
+Paola Franco Septiembre 2020 DAPT, México, 22/11/2020
+
+## Overview
+
+To collect information of the serial killers with the highest victim count, I used Wikipedia to scrap the information. To have further insights on each serial killer, I used the "Data News" API to find a news article where the topic is the serial killer. As a result, the information is saved as a CSV file to future analysis. 
+
+Web scraping: "https://en.wikipedia.org/wiki/List_of_serial_killers_by_number_of_victims"
+API: https://datanews.io/
+
+
+## Workflow
+Before coding, there was a brainstorming process on what information the final data frame should include. Once that was determined, both the website to scrap and the API, were selected. More detailed steps below:
+
+1. Draw a chart to have a very clear concept on what the outcome should be. 
+
+2. Select the website to scrape.
+
+3. Start web scrapping process. 
+
+4. Once data was clean, a dataframe was created.
+
+5. As a complement of the project, an API was included. 
+
+6. With the data that was pulled from the API, another dataframe was created. 
+
+7. To have the final data, a join of both dataframes was executed. 
+
+8. Finally, the data was saved as a CSV file. 
+
+
+The main challenges for this code were: 
+
+1. Cleaning the data: identifying how to fix the index 31 that was the only one that did not follow the initial cleaning logic. 
+
+2. Simplifying the code: find a more efficient and simple way to run the code; apply the zen of Python principles. 
+
+3. Building the pipeline: once I had the code running, it was confusing how to build the functions. 
+
+
+
+## Lessons learned 
+
+* **Be explicit when coding, sometimes you forget your own code if you are not clear. 
+
+* **Going through documentation, class examples or any other additional material it is also a way to brainstorm. It is useful to figure out things differently. 
+
+* **Have an order when coding. Follow a mental model that guides you step by step. 
+
+
+## Useful Resources
+
+* https://www.urlencoder.io/python/#:~:text=In%20Python%203%2B%2C%20You%20can,uses%20UTF%2D8%20encoding%20scheme
+* https://datanews.io/docs/search-examples
+
