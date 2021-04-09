@@ -9,7 +9,7 @@
 ## Content
 - Twitter API conection
 - Bigrams for a pool of words from 2k tweets
-- Aentiment analysis for 2k tweets
+- Sentiment analysis for 2k tweets
 
 <a name="project-description"></a>
 
