@@ -1,5 +1,7 @@
 ![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
 
+https://img.shields.io/github/languages/top/rikrdinii1/project-data-extraction?color=green&logo=python&style=plastic
+
 # Project: API and Web Data Scraping
 
 ## Descripcion del Proyecto
@@ -41,10 +43,4 @@ Documentacion para la info de las canciones:
 Referencia para el login en la API de Spotify:
  https://www.youtube.com/watch?v=xdq6Gz33khQ&t=4594s&ab_channel=CodingEntrepreneurs
 
-
-## Pendientes:
-
-1. Queda pendiente el poder generar una playlist con base en la info obtenida de cada lista de reproduccion analizada
-2. Subir dicha Playlist a Spotify
-3. De manera visual mostrar las caracteristicas de cada lista de reproduccion y poder hacer una comparacion entre cada una de ellas con base en las caracteristicas de las canciones. 
 
