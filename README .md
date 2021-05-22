@@ -4,34 +4,33 @@
 
 ## Overview: Data Extraction of PokeAPI
 
-Para este proyecto se consultó una API basada en la serie de televisión "Pokemon" donde se realizó
-la busqueda de información a travéz de diferentes archivos JSON para obtener los datos precisos
-que ocupabamos en el DataFrame para despues exportar los datos a un archovo de csv.
+Para este proyecto se consultó una API basada en la serie de televisión "Pokemon" donde el objetivo era encontrar información de: Número de Pokemon, Nombre,Tipo, Ataque poderoso e imagenes de referencia.
 
-La búsqueda de los pokemons fué complicada pero se lograron capturar a todos con todo y fotografías!!
+La busqueda de información se llevó acabo a travéz de diferentes archivos JSON para reunirla todo en un DataFrame y despues poder exportar los datos. Por ejemplo en un archivo .csv
 
+La búsqueda de los pokemons fué complicada ;) ... pero se lograron capturar a todos!!  :D
 ---
 
 ## Deliverables
 
-**A Jupyter Notebook (.ipynb) file**
-**An output folder**
-**A README.md file (it's this File)**
+* **A Jupyter Notebook (.ipynb) file**
+* **An output folder**
+* **A README.md file (it's this File)**
 
 
 ---
 
 ## Detailed Explanation
 
-En éste archivo Jupyter Notebook encontramos un código que nos permiten navegar a travéz de 
-diferentes URL almacenadas en un archivo JSON para posterior crear un DataFrame de la
-información específica que necesitamos acerca nuestros Pokemons, datos como: Número de Pokemon, Nombre,Tipo, Ataque poderoso e imagenes de referencia.
+En el archivo Jupyter Notebook hacemos uso de librerías como: requests, json, numpy, pandas, etc.
+para timbrar diferentes URL de la PokeAPI, realizando métodos de extracción y usando listas de comprensión para almacenar los datos y con ayuda de un DataFrame reunir todas las listas obtenidas.
 
-Despues de correr el código obtenemos en la carpeta "Exports" un archivo CSV con datos de nuestros pokemons para ser utilizados en otra aplicación si es requerido.
+Por último, ya que tenemos el DataFrame final se exportaron los archivos a un archivo .csv en la carpeta Exports del repositorio.
+
 
 ---
 
-# Thanks for staying until the end :D
+# Thanks for watching to the end :D
 
 ---
 
