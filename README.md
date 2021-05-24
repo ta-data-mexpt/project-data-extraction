@@ -1,4 +1,4 @@
-![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
+[IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
 
 # Project: API and Web Data Scraping
 
@@ -21,4 +21,5 @@ The following deliverables should be pushed to your Github repo for this chapter
 
 * The second lesson I had is about soft skills. If you wrote a code and you think you can use it, do it. After hours trying to wrtie by myself the code, I recall to take a look at the labs I had solved and I found that would be easier to copy the structure of another one instead trying to do everything from the start.
 
-* Finally I can say that even I could save hours tryi
+* Finally I can say that even I could save hours since the begging, I couldn't get this new experience if I hadn't been through this. 
+* I found it hard, but not impossible.

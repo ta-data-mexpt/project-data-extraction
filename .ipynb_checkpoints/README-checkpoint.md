@@ -1,46 +1,25 @@
-![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
+[IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
 
 # Project: API and Web Data Scraping
 
-## Overview
 
-The goal of this project is for you to practice what you have learned in the APIs and Web Scraping chapter of this program. For this project, you will choose both an API to obtain data from and a web page to scrape. For the API portion of the project will need to make calls to your chosen API, successfully obtain a response, request data, convert it into a Pandas data frame, and export it as a CSV file. For the web scraping portion of the project, you will need to scrape the HTML from your chosen page, parse the HTML to extract the necessary information, and either save the results to a text (txt) file if it is text or into a CSV file if it is tabular data.
-
-**You will be working individually for this project**, but we'll be guiding you along the process and helping you as you go. Show us what you've got!
-
----
-
-## Technical Requirements
-
-The technical requirements for this project are as follows:
-
-* You must obtain data from an API using Python.
-* You must scrape and clean HTML from a web page using Python.
-* The results should be two files - one containing the tabular results of your API request and the other containing the results of your web page scrape.
-* Your code should be saved in a Jupyter Notebook and your results should be saved in a folder named output.
-* You should include a README.md file that describes the steps you took and your thought process for obtaining data from the API and web page.
-
-## Necessary Deliverables
 
 The following deliverables should be pushed to your Github repo for this chapter.
 
-* **A Jupyter Notebook (.ipynb) file** that contains the code used to work with your API and scrape your web page.
-* **An output folder** containing the outputs of your API and scraping efforts.
-* **A ``README.md`` file** containing a detailed explanation of your approach and code for retrieving data from the API and scraping the web page as well as your results, obstacles encountered, and lessons learned.
+* **Code Approach** I decided to do a web scrapping of Cravioto's e-shop, which is a tools and building supplies store. The web site is an html web site. Because of the structure of the labels I thought that was an accurate site to scrap, according what we learned in the bootcamp.
+* The output I got from the web scrapping are the name of the product, the price and the picture link.
+* As a feauture for this web scrapping is to get the "SKU code" and the "Users opinions", in which I have to open the link of each product and scrap them.
 
-## Suggested Ways to Get Started
+* **Results** As I though in the beginning I found out some issues by doing the scrapping. I got in a .CSV file the results of the web scrapping to this page. I would like the page had more data to scrap and practice more. But because the lack of time and some changes to my master plan, I couldn't. 
 
-* **Find an API to work with** - a great place to start looking would be [API List](https://apilist.fun/) and [Public APIs](https://github.com/toddmotto/public-apis). If you need authorization for your chosen API, make sure to give yourself enough time for the service to review and accept your application. Have a couple back-up APIs chosen just in case!
-* **Find a web page to scrape** and determine the content you would like to scrape from it - blogs and news sites are typically good candidates for scraping text content, and [Wikipedia](https://www.wikipedia.org/) is usually a good source for HTML tables (search for "list of...").
-* **Break the project down into different steps** - note the steps covered in the API and web scraping lessons, try to follow them, and make adjustments as you encounter the obstacles that are inevitable due to all APIs and web pages being different.
-* **Use the tools in your tool kit** - your knowledge of intermediate Python as well as some of the things you've learned in previous chapters. This is a great way to start tying everything you've learned together!
-* **Work through the lessons in class** & ask questions when you need to! Think about adding relevant code to your project each night, instead of, you know... _procrastinating_.
-* **Commit early, commit often**, don’t be afraid of doing something incorrectly because you can always roll back to a previous version.
-* **Consult documentation and resources provided** to better understand the tools you are using and how to accomplish what you want.
+* One of my main issues were to define clear and precisely my action plan. I think that it was the principal task to solve, but is better to have a good action plan before starting. Definitly that saved me hour of work.
+* The second important issue is that i couldn't scrap the URL images of each product, I had been having troubles trying to call the right label. Feedback is welcome.
 
-## Useful Resources
 
-* [Requests Library Documentation: Quickstart](http://docs.python-requests.org/en/master/user/quickstart/)
-* [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-* [Stack Overflow Python Requests Questions](https://stackoverflow.com/questions/tagged/python-requests)
-* [StackOverflow BeautifulSoup Questions](https://stackoverflow.com/questions/tagged/beautifulsoup)
+* **Lessons learned** 
+* The first one I want to writte about is of hard skills because I could do a reinforcement to my already knowledge, specially in OOP. I understood the theme when we did the lab, but when I tried to this project I found that I had a lot of opportunity areas to work.
+
+* The second lesson I had is about soft skills. If you wrote a code and you think you can use it, do it. After hours trying to wrtie by myself the code, I recall to take a look at the labs I had solved and I found that would be easier to copy the structure of another one instead trying to do everything from the start.
+
+* Finally I can say that even I could save hours since the begging, I couldn't get this new experience if I hadn't been through this. 
+* I found it hard, but not impossible.
