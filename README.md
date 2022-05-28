@@ -1,46 +1,34 @@
 ![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
 
 # Project: API and Web Data Scraping
+**Javiera Córdova - Data Analytics Part Time Abril 2202**
 
-## Overview
+## Introducción
 
-The goal of this project is for you to practice what you have learned in the APIs and Web Scraping chapter of this program. For this project, you will choose both an API to obtain data from and a web page to scrape. For the API portion of the project will need to make calls to your chosen API, successfully obtain a response, request data, convert it into a Pandas data frame, and export it as a CSV file. For the web scraping portion of the project, you will need to scrape the HTML from your chosen page, parse the HTML to extract the necessary information, and either save the results to a text (txt) file if it is text or into a CSV file if it is tabular data.
+El presente proyecto está basado en la API de la Administradora General de Fondos Fintual.
 
-**You will be working individually for this project**, but we'll be guiding you along the process and helping you as you go. Show us what you've got!
+La información que se podrá obtener corresponde al detalle de los 4 de inversión que maneja Fintual: **Very Conservative Streep, Conservative Clooney, Moderate Pit y Risky Norris**, ordenados del más conservador al más riesgoso.
 
----
+El análisis se realizará desde el periodo escogido por el usuario a la fecha.
 
-## Technical Requirements
+## Archivos
 
-The technical requirements for this project are as follows:
+* **Attempt1** 1er intento de proyecto.
+* **Attempt2** 2do intento de proyecto.
+* **Fintual API** Notebook Jupyter con proyecto final.
+* **fintual_funds** Archivo de texto con la información obtenida.
+* **Archivo ``README.md``**
 
-* You must obtain data from an API using Python.
-* You must scrape and clean HTML from a web page using Python.
-* The results should be two files - one containing the tabular results of your API request and the other containing the results of your web page scrape.
-* Your code should be saved in a Jupyter Notebook and your results should be saved in a folder named output.
-* You should include a README.md file that describes the steps you took and your thought process for obtaining data from the API and web page.
+## Workflow
 
-## Necessary Deliverables
+1. Decidir sobre qué hacer el proyecto: esta parte fue fácil ya que estoy obsesionada con Fintual. Está muy de moda en Chile por ser una empresa de gente joven, y por otro lado, desde siempre me ha gustado todo lo relacionado a inversiones.
+2. Encontrar la API y documentación que me sirviera: esta parte fue difícil, ya que no hay mucha documentación.
+3. Entender lo poco que había de documentación.
+4. Empezar a codear: tuve muchísimos intentos fallidos porque no entendía bien la documentación y cómo era la relación de la información que podía obtener de los GETS que aparecían.
+5. Arreglar el archivo para que quede en orden y presentable: primero obtuve un resumen de los fondos, luego obtuve la infomación para cada uno y, finalmente, consolidé en 1 dataframe la información de los 4 fondos.
 
-The following deliverables should be pushed to your Github repo for this chapter.
+## Recursos
 
-* **A Jupyter Notebook (.ipynb) file** that contains the code used to work with your API and scrape your web page.
-* **An output folder** containing the outputs of your API and scraping efforts.
-* **A ``README.md`` file** containing a detailed explanation of your approach and code for retrieving data from the API and scraping the web page as well as your results, obstacles encountered, and lessons learned.
-
-## Suggested Ways to Get Started
-
-* **Find an API to work with** - a great place to start looking would be [API List](https://apilist.fun/) and [Public APIs](https://github.com/toddmotto/public-apis). If you need authorization for your chosen API, make sure to give yourself enough time for the service to review and accept your application. Have a couple back-up APIs chosen just in case!
-* **Find a web page to scrape** and determine the content you would like to scrape from it - blogs and news sites are typically good candidates for scraping text content, and [Wikipedia](https://www.wikipedia.org/) is usually a good source for HTML tables (search for "list of...").
-* **Break the project down into different steps** - note the steps covered in the API and web scraping lessons, try to follow them, and make adjustments as you encounter the obstacles that are inevitable due to all APIs and web pages being different.
-* **Use the tools in your tool kit** - your knowledge of intermediate Python as well as some of the things you've learned in previous chapters. This is a great way to start tying everything you've learned together!
-* **Work through the lessons in class** & ask questions when you need to! Think about adding relevant code to your project each night, instead of, you know... _procrastinating_.
-* **Commit early, commit often**, don’t be afraid of doing something incorrectly because you can always roll back to a previous version.
-* **Consult documentation and resources provided** to better understand the tools you are using and how to accomplish what you want.
-
-## Useful Resources
-
-* [Requests Library Documentation: Quickstart](http://docs.python-requests.org/en/master/user/quickstart/)
-* [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-* [Stack Overflow Python Requests Questions](https://stackoverflow.com/questions/tagged/python-requests)
-* [StackOverflow BeautifulSoup Questions](https://stackoverflow.com/questions/tagged/beautifulsoup)
+* [Página Web Fintual](https://fintual.cl)
+* [Noticia: La API de Fintual](https://fintualist.com/chile/noticias/el-api-de-fintual/)
+* [API Fintual](https://fintual.cl/api-docs/index.html)
