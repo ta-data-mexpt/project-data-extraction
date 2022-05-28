@@ -7,7 +7,7 @@
 
 El presente proyecto está basado en la API de la Administradora General de Fondos Fintual.
 
-La información que se podrá obtener corresponde al detalle de los 4 de inversión que maneja Fintual: **Very Conservative Streep, Conservative Clooney, Moderate Pit y Risky Norris**, ordenados del más conservador al más riesgoso.
+La información que se podrá obtener corresponde al detalle de los 4 fondos de inversión que maneja Fintual: **Very Conservative Streep, Conservative Clooney, Moderate Pit y Risky Norris**, ordenados del más conservador al más riesgoso.
 
 El análisis se realizará desde el periodo escogido por el usuario a la fecha.
 
