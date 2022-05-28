@@ -1,3 +1,61 @@
+Proyecto API
+
+Mi proyecto de API consistio en estar monitoreando los vuelos tanto comerciales como privados sobre un area especifica que determina el usuario del programa. 
+En el caso del programa realizado estuve trabajando en las latitudes y longitudes que corresponden tanto a USA como a Mexico y monitoree tanto en la madrugada
+como en el dia y se logro apreciar un aumento significativo de trafico de aviones tanto en Mexico como en USA en el dia.
+Es importante mencionar que tuve que leer bastante con relacion a como se leen las coordenadas tanto de latitudes y longitudes de acuerdo al standard WGS84, 
+ademas de leer acerca del ADS-B (vigilancia dependiente automatica - difusion) que es la tecnologia que permite determinar la posicion de los aviones a traves
+de la navegacion por satelite.
+
+La API fue establecida directamente con el sitio de opensky-network. Despues de leer las relacionado con las autenticaciones y altas, este indicaba que si eres
+un usuario registrado, el tiempo de muestreo puede ser como minimo cada 5 segundos mientras que con usuarios no registrados la frecuencia minima de monitoreo es
+de 10 segundos. Aunque intente varias veces en registrarme para poder tener mejores tiempos de monitoreo. El sitio de opensky presento problemas para terminar el
+registro, por lo que termine trabajando con usuario no registrado.
+
+una vez que logre realizar la consulta al sitio de opensky desde mi endpoint, procedi a trabajar en cargar la DataFrame de panda, definiendo los nombres de las 
+columnas y pude apreciar datos desde la clave de las aerolineas, como paises donde salen los vuelos, la hora de despegue, hora del ultimo contacto (timestamp)
+entre otros. Posteriormente, salve las tablas a archivos CSV, mismos que se pueden consultar en esta misma carpeta. Estos archivos comprenden monitoreos para
+USA y Mexico.
+
+Posteriormente, me parecio interesante que existen algunas APIs que ayudan a visualizar las posiciones de los aviones mediante dibujos de graficos de vectores que
+representan los datos. Es mendianto el modulo Bokeh.plotting que se loga incluir los elementos como lineas, cuadros y demas figuras que representan los desplaza-
+mientos y las posiciones actuales.
+
+
+
+PROYECTO WEB-SCRAPER
+
+En mi trabajo de WebScraper, hay 2 accesorios que siempre estoy buscando su mejor precio y los monitoreo muy seguido para comprarlos. Aprovechando mi aprendizaje
+de webscraper, los conocimientos adquiridos de Dev tools y lo estudiado de HTML y CSS, quise hace un programa que me ayude a monitorear los items que tengo 
+identificados en Amazon.
+
+Los modulos con los que inicialmente tenia previsto trabajar son requests, BeautifulSoup y time. Fue despues de que identifique que iba a extraer el nombre del 
+producto mediante su ID y el precio de este mediante una clase 'span',{'class':'a-price-whole'}. Despues de un par de intentos me di cuenta que no era posible
+extraer la informacion con los modulos antes mencionados, por lo que decidi utilizar los modulos de selenium (keys, ActionChains). Posteriormente procedi a 
+establecer comunicacion y esta vez si logre una comunicacion exitosa y logre ver los datos de los productos que deseaba.Todo lo puse en una funcion para poder
+misma que me permite extraer los datos deseados, ademas de limpiarlos y darlos forma.
+
+Una vez solucionado el reto de recolectar los datos del producto de la pagina, me puse a trabajar en lo referente a como enviarme las notificaciones de que 
+el producto a monitorear cumpliera alguna de las condiciones establecidas. Decidi, por tanto, que lo haria mendiante el email.
+Una vez decidido que enviaria las notificaciones via email, entonces instale el modulo de 'smtplib'. Despues me fui a generar una contraseña para apps en mi 
+cuenta de google, para que me permitiera enviar correos desde el enlace del programa una vez que una condicion de un producto se lograra.
+
+Configure el tema del correo, asi como el cuerpo de este. A continuacion coloque dos cuentas de correo electronicos donde quiero recibir las alertas con las
+condiciones buscadas y por ultimo coloque un timer para estar monitoreando el producto con una frecuencia definida. En el caso del programa estara monitoreando
+cada 20 minutos.
+
+Para este trabajo monitoree dos productos y al reducor el valor del time.sleep a 20 segundos, tras lograr la condicion del precio, el programa me envio los 
+mensajes recurrentemente a mi correo establecido. En la carpeta de output agregue un par de correos que recibi.
+
+Los retos principales consistieron en la configuracion del modulo del email, ademas de que Amazon me estuvo bloqueando mis consultas cuando baje la frecuencia 
+de muestreo con mi time.sleep. 
+En otra ocasion, mi contraseña para app se vencio y por tanto tambien dejo de enviarme las alertas y fue hasta que genere una nueva, que logre recibir mis
+notificaciones.
+
+
+******************************************************************************************************************************************************************************************************************************************
+
+
 ![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
 
 # Project: API and Web Data Scraping
