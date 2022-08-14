@@ -4,43 +4,32 @@
 
 ## Overview
 
-The goal of this project is for you to practice what you have learned in the APIs and Web Scraping chapter of this program. For this project, you will choose both an API to obtain data from and a web page to scrape. For the API portion of the project will need to make calls to your chosen API, successfully obtain a response, request data, convert it into a Pandas data frame, and export it as a CSV file. For the web scraping portion of the project, you will need to scrape the HTML from your chosen page, parse the HTML to extract the necessary information, and either save the results to a text (txt) file if it is text or into a CSV file if it is tabular data.
+In this project I obtained data from two sources: an API and a website which I scrapped.
 
-**You will be working individually for this project**, but we'll be guiding you along the process and helping you as you go. Show us what you've got!
+API data extraction:
 
----
+The API used was the Rick and Morty API. The documentation can be found here: https://rickandmortyapi.com/documentation/ and the actual API can be found here: https://rickandmortyapi.com/
 
-## Technical Requirements
+The API presented no special difficulties since all calls had to be made using the GET method and there were no authorization requirements like API Keys or similar.
 
-The technical requirements for this project are as follows:
+The endpoint used whas the /character endpoint, which allows users to retrieve information for all characters who have appeared in a Rick and Morty episode. The main challenge encountered was that the results returned by the endpoint were paginated, with 20 results in each page. The results returned for each call indicated if there were more results in the next page, so it was just a matter of checking this information.
 
-* You must obtain data from an API using Python.
-* You must scrape and clean HTML from a web page using Python.
-* The results should be two files - one containing the tabular results of your API request and the other containing the results of your web page scrape.
-* Your code should be saved in a Jupyter Notebook and your results should be saved in a folder named output.
-* You should include a README.md file that describes the steps you took and your thought process for obtaining data from the API and web page.
+Another challenge tackled was how to make the script usable for all endpoints of the API, and not just for the /character endpoint. This was solved creating a dictionary with all endpoint paths, so that we can just call the name of the path and the endpoint url will be built to be able to call that endpoint. Extracting the information from each endpoint works the same way for all endpoints. 
 
-## Necessary Deliverables
+The only problem is when we want to create a dataframe with the information obtained from each endpoint, because in this case each endpoint has different information columns, so what we've done for the information obtained from the /character endpoint will not work for the /location or /episode endpoints. This is perhaps something which can be improved upon in the future.
 
-The following deliverables should be pushed to your Github repo for this chapter.
+After that, we just had to obtain the data we wanted for each character, which was: id, name, status, species, type, gender, origin and location. Some results were discarded, such as the episodes the character appeared in or an image of the character.
 
-* **A Jupyter Notebook (.ipynb) file** that contains the code used to work with your API and scrape your web page.
-* **An output folder** containing the outputs of your API and scraping efforts.
-* **A ``README.md`` file** containing a detailed explanation of your approach and code for retrieving data from the API and scraping the web page as well as your results, obstacles encountered, and lessons learned.
+Web Scrapping:
 
-## Suggested Ways to Get Started
+The website scrapped was properstar.es, which provides information about house listings for rental and purchase. More specifically, I scrapped the url for rental listings in Mexico City for apartments and houses: https://www.properstar.es/mexico/ciudad-de-mexico-loc/alquiler/piso-casa
 
-* **Find an API to work with** - a great place to start looking would be [API List](https://apilist.fun/) and [Public APIs](https://github.com/toddmotto/public-apis). If you need authorization for your chosen API, make sure to give yourself enough time for the service to review and accept your application. Have a couple back-up APIs chosen just in case!
-* **Find a web page to scrape** and determine the content you would like to scrape from it - blogs and news sites are typically good candidates for scraping text content, and [Wikipedia](https://www.wikipedia.org/) is usually a good source for HTML tables (search for "list of...").
-* **Break the project down into different steps** - note the steps covered in the API and web scraping lessons, try to follow them, and make adjustments as you encounter the obstacles that are inevitable due to all APIs and web pages being different.
-* **Use the tools in your tool kit** - your knowledge of intermediate Python as well as some of the things you've learned in previous chapters. This is a great way to start tying everything you've learned together!
-* **Work through the lessons in class** & ask questions when you need to! Think about adding relevant code to your project each night, instead of, you know... _procrastinating_.
-* **Commit early, commit often**, don’t be afraid of doing something incorrectly because you can always roll back to a previous version.
-* **Consult documentation and resources provided** to better understand the tools you are using and how to accomplish what you want.
+However, the script should work if we change the location: https://www.properstar.es/{countryname}/{cityname}-loc/alquiler/piso-casa
 
-## Useful Resources
+The main challenges encountered were two:
+1) Getting the prices for each listing in Mexican pesos, since by default I was getting them in euros. To achieve this result, I had to use Selenium to navigate the page's menu and click on the option to change the currency the website uses to show prices in.
+2) Getting all result pages, since the website only provides 20 results per page. To solve this, I obtained the total number of listings from the first results page, and knowing that number, I was able to calculate the total number of page results and build the url for each of those results pages.
 
-* [Requests Library Documentation: Quickstart](http://docs.python-requests.org/en/master/user/quickstart/)
-* [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-* [Stack Overflow Python Requests Questions](https://stackoverflow.com/questions/tagged/python-requests)
-* [StackOverflow BeautifulSoup Questions](https://stackoverflow.com/questions/tagged/beautifulsoup)
+Having solved those two challenges, it was just a matter of obtaining the info I wanted from each listing, which was: title, type of building (house or apartment), price, listing url, number of bedrooms, number of rooms, number of bathrooms, address and surface.
+
+
