@@ -1,46 +1,54 @@
-![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
 
-# Project: API and Web Data Scraping
+# Ironhack Proyecto 2: API
 
-## Overview
+Se utilizan los protocolos API para obtener información de la Energía Asignada de Importación y Exportación del Centro Nacional de Control de Energía (CENACE).
 
-The goal of this project is for you to practice what you have learned in the APIs and Web Scraping chapter of this program. For this project, you will choose both an API to obtain data from and a web page to scrape. For the API portion of the project will need to make calls to your chosen API, successfully obtain a response, request data, convert it into a Pandas data frame, and export it as a CSV file. For the web scraping portion of the project, you will need to scrape the HTML from your chosen page, parse the HTML to extract the necessary information, and either save the results to a text (txt) file if it is text or into a CSV file if it is tabular data.
+## Fuente de información
 
-**You will be working individually for this project**, but we'll be guiding you along the process and helping you as you go. Show us what you've got!
+El Servicio Web para descarga de Energía Asignada de Importación y Exportación ([SW-EAIMPEX](https://www.cenace.gob.mx/DocsMEM/2022-06-24%20Manual%20Técnico%20SW-EAIMPEX.pdf)) es un servicio que brinda el CENACE para descargar información sobre los resultados de la ejecución del Mercado del Día en Adelanto (MDA). 
 
----
+Este servicio permite obtener la información de los puntos de importación y exportación de energía eléctrica.
 
-## Technical Requirements
+## Solicitud
+Obtener información de las Cantidades Asignadas de Importación y Exportación del MDA del Sistema Interconectado Nacional (SIN), correspondiente al Día de Operación del 01 al 31 de julio de 2022.
 
-The technical requirements for this project are as follows:
+* **Nota:** Se realizan varias peticiones de consulta para periodo establecido, ya que la página del CENACE solo permite descargar informació de 1 a 7 Días de Operación.
 
-* You must obtain data from an API using Python.
-* You must scrape and clean HTML from a web page using Python.
-* The results should be two files - one containing the tabular results of your API request and the other containing the results of your web page scrape.
-* Your code should be saved in a Jupyter Notebook and your results should be saved in a folder named output.
-* You should include a README.md file that describes the steps you took and your thought process for obtaining data from the API and web page.
+## Información adicional
+El Sistema Interconectado Nacional cuenta 13 interconexiones internacionales ubicadas en los estados fronterizos. Existen 11 interconexiones con Estados Unidos y 2 interconexiones con Centroamérica (uno con Guatemala y uno con Bélice).
 
-## Necessary Deliverables
+La información de las interconexiones obtenidas del CENACE son:
 
-The following deliverables should be pushed to your Github repo for this chapter.
+    1. Ciudad Industrial - Laero Amer (interconexión con ERCOT, Texas)
+    2. Cumbres Frontera - Railroad (interconexión con ERCOT, Texas)
+    3. Piedas Negras - Eagle Pass (interconexión con ERCOT, Texas)
+    4. Tapachula - Los Brillantes (interconexión con ETCEE, Guatemala)
+    5. Xul Ha-WEST (interconexión con BEL, Bélice)
 
-* **A Jupyter Notebook (.ipynb) file** that contains the code used to work with your API and scrape your web page.
-* **An output folder** containing the outputs of your API and scraping efforts.
-* **A ``README.md`` file** containing a detailed explanation of your approach and code for retrieving data from the API and scraping the web page as well as your results, obstacles encountered, and lessons learned.
+<p align="center">
+<img width="600" alt="image_interconexiones" src="https://user-images.githubusercontent.com/108844724/185035023-569f126b-99b9-4982-a81f-e25ea12a6cd3.png">
+</p>
 
-## Suggested Ways to Get Started
 
-* **Find an API to work with** - a great place to start looking would be [API List](https://apilist.fun/) and [Public APIs](https://github.com/toddmotto/public-apis). If you need authorization for your chosen API, make sure to give yourself enough time for the service to review and accept your application. Have a couple back-up APIs chosen just in case!
-* **Find a web page to scrape** and determine the content you would like to scrape from it - blogs and news sites are typically good candidates for scraping text content, and [Wikipedia](https://www.wikipedia.org/) is usually a good source for HTML tables (search for "list of...").
-* **Break the project down into different steps** - note the steps covered in the API and web scraping lessons, try to follow them, and make adjustments as you encounter the obstacles that are inevitable due to all APIs and web pages being different.
-* **Use the tools in your tool kit** - your knowledge of intermediate Python as well as some of the things you've learned in previous chapters. This is a great way to start tying everything you've learned together!
-* **Work through the lessons in class** & ask questions when you need to! Think about adding relevant code to your project each night, instead of, you know... _procrastinating_.
-* **Commit early, commit often**, don’t be afraid of doing something incorrectly because you can always roll back to a previous version.
-* **Consult documentation and resources provided** to better understand the tools you are using and how to accomplish what you want.
+-----------------
+-----------------
 
-## Useful Resources
+# Ironhack Proyecto 2: Web scraping
 
-* [Requests Library Documentation: Quickstart](http://docs.python-requests.org/en/master/user/quickstart/)
-* [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-* [Stack Overflow Python Requests Questions](https://stackoverflow.com/questions/tagged/python-requests)
-* [StackOverflow BeautifulSoup Questions](https://stackoverflow.com/questions/tagged/beautifulsoup)
+Se utiliza Web Scraping para conocer la Clasificación de la Asociación Femenina de Tenis (WTA, *Women's Tennis Association*). Esta Clasificación pertenece al ranking mundial de tenistas femeninas que publica la WTA desde 1975.
+
+<p align="center">
+<img width="300" alt="Women's_Tennis_Association_logo_(2020) svg" src="https://user-images.githubusercontent.com/108844724/186027090-5e0fb27c-fb15-4d64-a233-e20df1dcc9b0.png">
+</p>
+
+
+## Fuente de información
+
+La información es obtenida de la página [WTA rankings](https://en.wikipedia.org/wiki/WTA_rankings) de Wikipedia. Esta Clasificación es actualizada cada semana, como resultado de los puntos obtenidos por cada tenista de los torneos realizados en las últimas 52 semanas.
+
+
+## Solicitud
+Obtener de la Clasificación WTA con mayor puntaje en las modalidades *single* y *doubles individual*.
+
+**Nota**: la información presentada es hasta la semana del 15 al 21 de agosto de 2022.
+
