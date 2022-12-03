@@ -44,3 +44,18 @@ The following deliverables should be pushed to your Github repo for this chapter
 * [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * [Stack Overflow Python Requests Questions](https://stackoverflow.com/questions/tagged/python-requests)
 * [StackOverflow BeautifulSoup Questions](https://stackoverflow.com/questions/tagged/beautifulsoup)
+
+
+EXTRACCIÓN DE DATOS PERSONALES DE FITBIT API
+
+1. Leer documentación de API (https://dev.fitbit.com/build/reference/web-api/)
+2. Iniciar sesión con mi cuenta personal de FitBit y crear una cuenta de "developer" (dev.fitbit.com). En ésta cuenta de developer se debe crear una aplicación y en base a los datos de la aplicación se genera un token y un client ID.
+3. Con el token y el client_ID, se genera un link que se debe pegar en el navegador para autorizar a la API la extracción de datos personales de la cuenta en gestión. Se debe especificar por cuánto tiempo se permitirá la extracción de datos personales. En mi caso, yo permití el acceso por 30 días. Mi link para la autorzación de extracción de datos, quedó de la siguiente manera: 
+https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=2393C4&redirect_uri=http://127.0.0.1:8080/&scope=activity%20nutrition%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight&expires_in=2592000
+4. Para la extracción de cada tipo de información, la API proporciona un formato del link para el "get". En este caso tuve que iterar algunas fechas, pues el formato de la API sólo permitía la extracción de un intervalo de tiempo menor al deseado.
+5. Obtuve diferentes categorías de información personal (calorías, pasos y distancia) para un período de 2 años (2021 y 2022), así como la cantidad de horas dormidas en el año 2019 (sólo se registran los días en los que usé el tracker para dormir).
+6. La información obtenida no ha sido "limpiada", pues en eso consistirá la segunda parte del proyecto.
+
+Challenges:
+-La parte más complica fue obtener la autorización para accesar a mi información, pues había que crear una cuenta de developer y crear una aplicación ficticia.
+-El proceso de iteración de fechas y concatencación de tablas.
