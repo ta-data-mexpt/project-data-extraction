@@ -13,7 +13,7 @@ Since I had several attempts for this project there are improvements to be done 
 * Access the contained links that have families within the basses
 
 ## Useful Resources
-
+* [Bass Specialized Webpage](https://www.music-man.com/instruments/basses/)
 * [Requests Library Documentation: Quickstart](http://docs.python-requests.org/en/master/user/quickstart/)
 * [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * [Stack Overflow Python Requests Questions](https://stackoverflow.com/questions/tagged/python-requests)
